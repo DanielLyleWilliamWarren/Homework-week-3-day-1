@@ -229,3 +229,25 @@ id |                title                | year | show_time
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
+
+
+DELETE FROM movies WHERE show_time IN ('14:55', '12:10', '13:50', '15:00', '15:45');
+
+id |               title                | year | show_time
+----+------------------------------------+------+-----------
+ 1 | Iron Man                           | 2008 | 23:55
+ 4 | Thor                               | 2011 | 16:25
+ 5 | Captain America: The First Avenger | 2011 | 16:55
+ 6 | Avengers Assemble                  | 2012 | 13:25
+ 7 | Iron Man 3                         | 2013 | 23:15
+ 8 | Thor: The Dark World               | 2013 | 16:50
+ 9 | Batman Begins                      | 2005 | 20:05
+11 | Guardians of the Galaxy            | 2014 | 19:05
+12 | Avengers: Age of Ultron            | 2015 | 17:45
+13 | Ant-Man                            | 2015 | 16:30
+14 | Captain America: Civil War         | 2016 | 16:00
+15 | Doctor Strange                     | 2016 | 16:10
+18 | Thor: Ragnarok                     | 2017 | 14:40
+20 | Avengers Infinity Wars             | 2018 | 24:00
+16 | Guardians of the Galaxy 2          | 2017 | 21:05
+(15 rows)
