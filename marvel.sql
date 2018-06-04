@@ -56,5 +56,8 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:0
 
 -- UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
 -- DELETE FROM movies WHERE title = 'Batman Begins';
-DELETE FROM people WHERE name = 'Emily Milne';
-SELECT * FROM people;
+-- DELETE FROM people WHERE name = 'Emily Milne';
+
+INSERT INTO movies (title, year, show_time) VALUES ('Avengers Infinity Wars', 2018, '24:00');
+
+SELECT * FROM movies;
