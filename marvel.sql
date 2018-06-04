@@ -32,7 +32,7 @@ INSERT INTO people (name) VALUES ('Jezuz	Perez');
 INSERT INTO people (name) VALUES ('Benjamin	Robinson');
 INSERT INTO people (name) VALUES ('Stephen	Rooney');
 INSERT INTO people (name) VALUES ('Can	Toraman');
-INSERT INTO people (name) VALUES ('Daniel	Warren');
+INSERT INTO people (name) VALUES ('Daniel Warren');
 
 INSERT INTO movies (title, year, show_time) VALUES ('Iron Man', 2008, '23:55');
 INSERT INTO movies (title, year, show_time) VALUES ('The Incredible Hulk', 2008, '12:10');
@@ -54,6 +54,6 @@ INSERT INTO movies (title, year, show_time) VALUES ('Spider-Man: Homecoming', 20
 INSERT INTO movies (title, year, show_time) VALUES ('Thor: Ragnarok', 2017, '14:40');
 INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:00');
 
-UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
+-- UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
 
-SELECT * FROM people;
+SELECT * FROM people WHERE name = 'Daniel Warren';
